@@ -1,5 +1,6 @@
 #Use this file to list all the posts you wish to have RSSed
-#denote the start of each post with a !post
+#denote the start of each post with !post
+#any line starting with "#" will be ignored
 
 #SAMPLE FORMAT
 #!post
@@ -10,6 +11,8 @@
 
 #note that you can link specific sections on a webpage instead of the whole page if you've tagged it right
 #(see an html guide for more)
+
+#Posts begin here:
 
 !post
 title : title

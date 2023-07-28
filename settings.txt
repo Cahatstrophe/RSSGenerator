@@ -4,6 +4,8 @@ file_name : feed.xml
 title : test title
 link : http://cahatstrophe.neocities.org
 desc : test description
+
+should_post : true
 key : put_a_key_here
 
 #Enable a key through Neocities API settings. DO NOT TELL ANYONE YOUR KEY

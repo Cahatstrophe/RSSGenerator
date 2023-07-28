@@ -6,10 +6,10 @@ def read_inputs():
     for line in open("settings.txt"):
         line = line.strip()
         if len(line) > 0 and line[0] != "#":
-            cat = line[:line.find(":")].strip()
-            val = line[line.find(":") + 1:].strip()
+            category = line[:line.find(":")].strip()
+            value = line[line.find(":") + 1:].strip()
 
-            ret[cat] = val
+            ret[category] = value
 
     return ret
 
@@ -101,7 +101,9 @@ def main():
 
     bottom_RSS_feed(inputs["file_name"])
 
-    nc = neo.NeoCities(api_key=inputs["key"])
-    nc.upload((inputs["file_name"], inputs["file_name"]))
+    truth = ["T", "t", "True", "true", "yes", "do", "please"]
+    if inputs["should_post"] in truth:
+        nc = neo.NeoCities(api_key=inputs["key"])
+        nc.upload((inputs["file_name"], inputs["file_name"]))
 
 main()
