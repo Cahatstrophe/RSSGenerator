@@ -1,0 +1,12 @@
+#Settings for the feed
+
+file_name : feed.xml
+title : test title
+link : http://cahatstrophe.neocities.org
+desc : test description
+key : put_a_key_here
+
+#Enable a key through Neocities API settings. DO NOT TELL ANYONE YOUR KEY
+#also, back your site up regularly
+
+#hey you're pretty cool for using this tool

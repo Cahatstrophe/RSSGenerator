@@ -1,0 +1,18 @@
+#Use this file to list all the posts you wish to have RSSed
+#denote the start of each post with a !post
+
+#SAMPLE FORMAT
+#!post
+#title : some title for the post
+#link : the link to the post
+#desc : the description
+#date : the date in 20XX-mm-dd format. if you use a different format, the feed won't be valid. sorry
+
+#note that you can link specific sections on a webpage instead of the whole page if you've tagged it right
+#(see an html guide for more)
+
+!post
+title : title
+link :  link_to_the_post.com
+desc : description
+date : 2023-01-01
